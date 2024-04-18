@@ -1,8 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import MainCard from "@/components/mainCard/mainCard";
 
-export default function Home() {
+export default async function Home() {
+
   return (
-    <></>
+    <>
+      <MainCard />
+    </>
   );
 }
